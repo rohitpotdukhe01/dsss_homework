@@ -1,14 +1,13 @@
 import random
 
 
-def function_A(min, max):
-    """
-    Random integer.
-    """
+def random_integer(min, max):
+    #Random integer.
     return random.randint(min, max)
 
 
-def function_B():
+def random_operator():
+    #Choose random operator for mathematical expression
     return random.choice(['+', '-', '*'])
 
 
